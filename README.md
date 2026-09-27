@@ -1,12 +1,8 @@
 # Vontik — Rechtliches
 
-Die veröffentlichte Datenschutzerklärung der iOS-App **Vontik**.
+Die Datenschutzerklärung der iOS-App **Vontik** steht seit 27. September 2026 unter
+<https://vontik.net/datenschutz>. Diese Seite (https://niko-gitdev.github.io/vontik-legal/)
+leitet nur noch dorthin um, damit ältere TestFlight-Builds, die hierher verlinken, auf der
+aktuellen Fassung landen.
 
-- Seite: https://niko-gitdev.github.io/vontik-legal/
-- Quelle: [`datenschutz.md`](datenschutz.md)
-
-Die Seite wird über GitHub Pages aus dem `main`-Branch ausgeliefert. Änderungen an
-`index.html` sind nach dem Push binnen ein bis zwei Minuten live.
-
-Beim Bearbeiten bitte `datenschutz.md` und `index.html` gemeinsam aktualisieren, damit
-Quelle und veröffentlichte Fassung nicht auseinanderlaufen.
+Die Quelle der aktuellen Fassung liegt im Website-Repository (`app/datenschutz/page.tsx`).

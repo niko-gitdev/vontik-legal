@@ -4,181 +4,26 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Datenschutzerklärung — Vontik</title>
-<meta name="description" content="Datenschutzerklärung der App Vontik.">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://vontik.net/datenschutz">
+<meta http-equiv="refresh" content="0; url=https://vontik.net/datenschutz">
+<script>location.replace('https://vontik.net/datenschutz');</script>
 <style>
-  :root {
-    color-scheme: dark light;
-    --bg:#07080C; --surface:#0D0F15; --text:#F4F6FC; --muted:#AEB6CB;
-    --line:rgba(235,240,255,.10); --accent:#6E93FF;
-  }
-  @media (prefers-color-scheme: light) {
-    :root { --bg:#F3F6FC; --surface:#FFFFFF; --text:#111522; --muted:#485066;
-            --line:rgba(24,32,56,.11); --accent:#3D6BFF; }
-  }
-  * { box-sizing:border-box; }
-  body { margin:0; background:var(--bg); color:var(--text);
-         font:16px/1.65 -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;
-         -webkit-font-smoothing:antialiased; }
-  main { max-width:46rem; margin:0 auto; padding:3.5rem 1.25rem 5rem; }
-  h1 { font-size:2rem; line-height:1.15; letter-spacing:-.02em; margin:0 0 .4rem; }
-  h2 { font-size:1.2rem; letter-spacing:-.01em; margin:2.6rem 0 .7rem;
-       padding-top:1.4rem; border-top:1px solid var(--line); }
-  h3 { font-size:1rem; color:var(--accent); margin:1.8rem 0 .5rem; }
-  p { margin:.7rem 0; }
-  ul { margin:.7rem 0; padding-left:1.15rem; }
-  li { margin:.35rem 0; }
-  a { color:var(--accent); }
-  code { font:.87em ui-monospace,SFMono-Regular,Menlo,monospace;
-         background:var(--surface); border:1px solid var(--line);
-         padding:.1em .35em; border-radius:.35em; }
-  hr { border:0; border-top:1px solid var(--line); margin:2rem 0; }
-  table { width:100%; border-collapse:collapse; margin:1rem 0; font-size:.93rem;
-          display:block; overflow-x:auto; }
-  th,td { text-align:left; padding:.6rem .7rem; border-bottom:1px solid var(--line);
-          vertical-align:top; }
-  th { color:var(--muted); font-weight:600; font-size:.8rem;
-       text-transform:uppercase; letter-spacing:.04em; }
-  body > main > p:first-of-type { color:var(--muted); }
-  footer { max-width:46rem; margin:0 auto; padding:0 1.25rem 4rem;
-           color:var(--muted); font-size:.85rem; }
+  :root { color-scheme: dark light; }
+  body { margin:0; background:#07080C; color:#F4F6FC;
+         font:16px/1.65 -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif; }
+  @media (prefers-color-scheme: light) { body { background:#F3F6FC; color:#111522; } }
+  main { max-width:46rem; margin:0 auto; padding:3.5rem 1.25rem; }
+  a { color:#6E93FF; }
 </style>
 </head>
 <body>
 <main>
-<h1>Datenschutzerklärung — Vontik</h1>
-<p><strong>Stand: 2. September 2026</strong></p>
-<hr>
-<h2>1. Verantwortlicher</h2>
-<p>Niko Korez, Wien, Österreich</p>
-<p>E-Mail: niko.korez22@gmail.com</p>
-<p>Vontik befindet sich derzeit in einer geschlossenen Testphase und wird nicht kommerziell</p>
-<p>angeboten. Mit der Veröffentlichung im App Store wird an dieser Stelle eine ladungsfähige</p>
-<p>Geschäftsanschrift ergänzt.</p>
-<h2>2. Der Grundsatz</h2>
-<p>Vontik ist so gebaut, dass deine Belege so weit wie möglich auf deinem Gerät bleiben.</p>
-<p>Texterkennung, die Auswertung von Belegen, die Berechnung von Fristen und die Erinnerungen</p>
-<p>laufen <strong>vollständig auf dem iPhone</strong>. Nichts davon benötigt einen Server.</p>
-<p>Daten verlassen dein Gerät nur in zwei Fällen, die beide von dir abhängen: wenn du die</p>
-<p>Cloud-Synchronisierung aktivierst, und wenn du für schwer lesbare Belege die</p>
-<p>Cloud-Unterstützung einschaltest. Beides ist standardmäßig aus bzw. erfordert deine</p>
-<p>ausdrückliche Entscheidung.</p>
-<h2>3. Was auf dem Gerät verarbeitet wird</h2>
-<table>
-<tr><th>Daten</th><th>Zweck</th><th>Wo</th></tr>
-<tr><td>Fotos, Scans und PDFs deiner Belege</td><td>Nachweis deines Kaufs</td><td>Nur auf dem Gerät, verschlüsselt</td></tr>
-<tr><td>Erkannter Text aus Belegen</td><td>Händler, Datum, Betrag, Produkt ermitteln</td><td>Nur auf dem Gerät</td></tr>
-<tr><td>Kaufdaten (Produkt, Preis, Datum, Seriennummer)</td><td>Deine Übersicht, Fristen</td><td>Nur auf dem Gerät</td></tr>
-<tr><td>Berechnete Fristen</td><td>Erinnerungen</td><td>Nur auf dem Gerät</td></tr>
-<tr><td>Nutzungszähler (Anzahl erfasster Käufe)</td><td>Produktverbesserung</td><td><strong>Nur auf dem Gerät, wird nicht übertragen</strong></td></tr>
-</table>
-<p>Belegdateien werden mit der Dateisystem-Verschlüsselung von iOS geschützt</p>
-<p>(<code>completeFileProtection</code> bzw. <code>completeUntilFirstUserAuthentication</code> für geteilte</p>
-<p>Dokumente).</p>
-<h3>Aus anderen Apps geteilte Dokumente</h3>
-<p>Wenn du eine PDF-Rechnung, einen Screenshot oder ein Foto über das Teilen-Menü an Vontik</p>
-<p>schickst, legt die Erweiterung die Datei in einem gemeinsamen Bereich der App auf deinem</p>
-<p>Gerät ab (<code>group.me.korez.niko.Vontik</code>). Die Erweiterung selbst wertet nichts aus und</p>
-<p>sendet nichts.</p>
-<p>Die Datei bleibt dort liegen, bis du den Kauf in der App gesichert hast, und wird dann</p>
-<p>gelöscht. Brichst du die Erfassung ab, bleibt sie erhalten und wird beim nächsten Öffnen</p>
-<p>wieder angeboten. Sie verlässt dein Gerät dabei nicht.</p>
-<h3>Beschädigte Daten</h3>
-<p>Kann Vontik einzelne gespeicherte Einträge nicht mehr lesen, legt es eine unveränderte</p>
-<p>Kopie der betroffenen Datei neben deinem Tresor ab</p>
-<p>(<code>assets-v1.unreadable-&lt;Zeitstempel&gt;.json</code>), damit nichts überschrieben wird. Diese Kopie</p>
-<p>bleibt lokal, wird nicht übertragen und kann über „Alle lokalen Daten löschen&quot; entfernt</p>
-<p>werden.</p>
-<h2>4. Texterkennung und künstliche Intelligenz</h2>
-<p><strong>Standardmäßig auf dem Gerät.</strong> Vontik nutzt Apples Vision-Framework für die Texterkennung</p>
-<p>und, sofern dein Gerät es unterstützt, Apple Intelligence für die Strukturierung. Beides</p>
-<p>läuft lokal; Apple erhält dabei keine Belegdaten von uns.</p>
-<p><strong>Optionale Cloud-Unterstützung (nur mit Vontik Pro und nur nach deiner Zustimmung).</strong></p>
-<p>Wenn ein Beleg auf dem Gerät nicht lesbar war, kann Vontik den <strong>erkannten Text</strong> an einen</p>
-<p>von uns betriebenen Server senden, der ihn an das Sprachmodell *Claude Haiku* von</p>
-<p><strong>Anthropic PBC</strong> weitergibt.</p>
-<p>Dabei gilt:</p>
-<ul>
-<li>Übertragen wird <strong>nur der erkannte Text</strong>, niemals das Bild oder das PDF.</li>
-<li>Vor der Übertragung werden personenbezogene Stellen automatisch entfernt: E-Mail-Adressen,</li>
-</ul>
-<p>  IBANs, Telefonnummern, Kunden- und Kartennummern sowie Zeilen hinter Bezeichnungen wie</p>
-<p>  „Kunde&quot;, „Lieferadresse&quot; oder „Rechnungsadresse&quot;.</p>
-<ul>
-<li>Es werden höchstens 120 Zeilen bzw. 7.500 Zeichen übertragen.</li>
-<li>Der Aufruf erfolgt <strong>nur</strong>, wenn die Auswertung auf dem Gerät eine konkrete Angabe nicht</li>
-</ul>
-<p>  ermitteln konnte.</p>
-<ul>
-<li>Die Anzahl dieser Anfragen ist <strong>pro Monat und Konto begrenzt</strong> (derzeit 60). Ist das</li>
-</ul>
-<p>  Kontingent aufgebraucht, fragt die App gar nicht mehr an und die Auswertung läuft</p>
-<p>  wieder ausschließlich auf dem Gerät.</p>
-<ul>
-<li>Unser Server speichert den Belegtext <strong>nicht</strong>. Er zählt lediglich die Anzahl der</li>
-</ul>
-<p>  Anfragen pro Konto und Monat.</p>
-<ul>
-<li><strong>Rechtsgrundlage:</strong> deine Einwilligung, Art. 6 Abs. 1 lit. a DSGVO. Du kannst sie</li>
-</ul>
-<p>  jederzeit in den Einstellungen widerrufen; die App funktioniert dann vollständig weiter.</p>
-<ul>
-<li><strong>Drittland:</strong> Anthropic PBC hat seinen Sitz in den USA. Die Übermittlung erfolgt auf</li>
-</ul>
-<p>  Grundlage deiner Einwilligung sowie der vertraglichen Zusicherungen des Anbieters.</p>
-<h2>5. Konto und Cloud-Synchronisierung (optional)</h2>
-<p>Vontik funktioniert vollständig ohne Konto. Wenn du die Synchronisierung aktivierst,</p>
-<p>verwenden wir <strong>Firebase</strong> (Google Ireland Limited) für Anmeldung, Datenbank und</p>
-<p>Dateispeicher.</p>
-<p>Dabei werden verarbeitet:</p>
-<ul>
-<li>eine anonyme oder mit Apple bzw. E-Mail verknüpfte Nutzer-ID,</li>
-<li>deine E-Mail-Adresse, falls du dich damit anmeldest,</li>
-<li>deine Kaufdaten und die zugehörigen Belegdateien.</li>
-</ul>
-<p>Deine Daten liegen in einem nach Nutzer-ID getrennten Bereich; die Sicherheitsregeln lassen</p>
-<p>Zugriff ausschließlich für dein eigenes Konto zu.</p>
-<p><strong>Rechtsgrundlage:</strong> Vertragserfüllung, Art. 6 Abs. 1 lit. b DSGVO.</p>
-<h2>6. Mitteilungen</h2>
-<p>Erinnerungen an ablaufende Fristen werden <strong>auf deinem Gerät</strong> geplant und ausgelöst. Es</p>
-<p>wird kein Server verwendet und es werden keine Daten dafür übertragen. Du erteilst die</p>
-<p>Erlaubnis dafür beim ersten Kauf mit einer Frist und kannst sie jederzeit in den</p>
-<p>iOS-Einstellungen widerrufen.</p>
-<h2>7. Käufe</h2>
-<p>Vontik Pro wird über Apples In-App-Kauf abgewickelt. Wir erhalten von Apple <strong>keine</strong></p>
-<p>Zahlungsdaten. Ob ein Abonnement aktiv ist, ermittelt die App über StoreKit auf dem Gerät.</p>
-<h2>8. Analyse und Tracking</h2>
-<p><strong>Vontik enthält kein Tracking, keine Werbe-IDs und keine Analyse-SDKs.</strong> Nutzungszähler</p>
-<p>(zum Beispiel wie viele Käufe erfasst wurden) werden ausschließlich lokal gespeichert und</p>
-<p>nicht übertragen. Inhalte von Belegen werden dabei technisch nicht erfasst.</p>
-<p>Deine Daten werden nicht verkauft und nicht für Werbung verwendet.</p>
-<h2>9. Speicherdauer</h2>
-<ul>
-<li><strong>Auf dem Gerät:</strong> bis du die Daten löschst oder die App entfernst.</li>
-<li><strong>Geteilte, noch nicht erfasste Dokumente:</strong> bis der zugehörige Kauf gesichert ist. Bis</li>
-</ul>
-<p>  dahin liegen sie im gemeinsamen Bereich der App auf deinem Gerät.</p>
-<ul>
-<li><strong>In der Cloud (falls aktiviert):</strong> bis du sie löschst. Die App bietet dafür „Kontodaten</li>
-</ul>
-<p>  löschen&quot; und „Alle lokalen Daten löschen&quot;.</p>
-<ul>
-<li><strong>Beim Server für die Cloud-Unterstützung:</strong> der Belegtext wird nicht gespeichert; der</li>
-</ul>
-<p>  monatliche Zähler wird nach etwa 70 Tagen automatisch gelöscht.</p>
-<h2>10. Deine Rechte</h2>
-<p>Dir stehen nach DSGVO Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17),</p>
-<p>Einschränkung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21) zu.</p>
-<p>Eine erteilte Einwilligung kannst du jederzeit widerrufen.</p>
-<p>Wende dich dafür an niko.korez22@gmail.com.</p>
-<p>Du hast außerdem das Recht auf Beschwerde bei einer Aufsichtsbehörde. In Österreich:</p>
-<p><strong>Österreichische Datenschutzbehörde</strong>, Barichgasse 40–42, 1030 Wien, dsb.gv.at</p>
-<h2>11. Kinder</h2>
-<p>Vontik richtet sich nicht an Kinder unter 16 Jahren und erhebt nicht wissentlich Daten</p>
-<p>von ihnen.</p>
-<h2>12. Änderungen</h2>
-<p>Wesentliche Änderungen dieser Erklärung werden in der App bekannt gegeben. Das Datum oben</p>
-<p>zeigt den jeweils aktuellen Stand.</p>
+  <h1>Die Datenschutzerklärung ist umgezogen</h1>
+  <p>Die aktuelle Fassung steht unter
+    <a href="https://vontik.net/datenschutz">vontik.net/datenschutz</a>.</p>
+  <p lang="en">The privacy policy has moved to
+    <a href="https://vontik.net/datenschutz">vontik.net/datenschutz</a>.</p>
 </main>
-<footer>Vontik · Niko Korez, Wien</footer>
 </body>
 </html>
